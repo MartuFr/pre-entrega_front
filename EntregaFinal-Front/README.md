@@ -1,0 +1,7 @@
+Proyecto e commerce
+
+Descripción:
+Logré hacer esta página web de e-commerce orientada al rubro del maquillaje con el objetivo de reflejar y poner en práctica todas las herramientas y buenas prácticas abordadas durante la cursada. Para la construcción del sitio, aseguré una arquitectura limpia utilizando HTML semántico y resolví el diseño visual con CSS, donde logré dominar Flexbox y CSS Grid para estructurar el layout y organizar las tarjetas de manera precisa. Para la interactividad utilicé JavaScript puro, consumiendo la MakeUp API para renderizar el catálogo de forma dinámica y desarrollando un carrito de compras funcional que mantiene los datos guardados entre sesiones mediante LocalStorage.
+También integré Formspree para habilitar el envío real de correos electrónicos en la sección de contacto y me apoyé en Copilot como asistente para agilizar la maquetación, resolver animaciones como la cinta de promociones y agregar detalles visuales como fuentes de Google Fonts y un video de fondo continuo.
+ Para visualizar y probar el proyecto hay que descargar la carpeta y abrir el documento index.html en cualquier navegador web, aunque se recomienda utilizar la extensión Live Server directamente desde el editor de código para asegurar el correcto funcionamiento de la conexión con la API externa.
+ 

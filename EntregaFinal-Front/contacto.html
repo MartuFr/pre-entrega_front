@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+ <header>
+    <img class="logo" src="img/logo.jpg" alt="logo de compras">
+<nav>
+<ul class="nav-list">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="">Tienda</a></li>
+  <li><a href="">Nosotros</a></li>
+  <li><a href="contacto.html">Contacto</a></li>
+  <li><a href="#" id="abrir-carrito" style="color: rgb(255, 0, 157);">🛒 (<span id="contador-carrito">0</span>)</a></li>
+ </ul>
+</nav>
+
+</header>
+
+   <main class="contenedor-contacto">
+    
+    <h2 class="titulocontacto">Contáctanos</h2>
+
+    <!-- Sección del Formulario -->
+    <section class="seccion-formulario">
+        <form action="https://formspree.io/f/mbdqrpzz" method="POST" class="formulario">
+            <h2>Envíanos un mensaje</h2>
+            <input type="text" name="Nombre" placeholder="Tu nombre" required>
+            <input type="email" name="Email" id="email" placeholder="Tu correo electrónico" required>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+        </form>
+    </section>
+
+
+</main>
+<footer>
+<p class="card">Síguenos en Nuestras redes sociales: <br> @BeautyStore</p>
+ <img src= "img/logo.jpg" alt="Logo" class="logo-footer">
+</footer>
+    <div id="carrito-lateral">
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid rgb(255, 213, 235); padding-bottom: 10px; margin-bottom: 10px;">
+        <h2 style="color: rgb(255, 0, 157); margin: 0;">Tu Carrito</h2>
+        <button id="cerrar-carrito" style="background: none; border: none; font-size: 20px; cursor: pointer; color: rgb(114, 55, 78); font-weight: bold;">X</button>
+    </div>
+    <div id="items-carrito" style="flex-grow: 1; overflow-y: auto;"></div>
+    <h3 style="border-top: 2px solid rgb(255, 213, 235); padding-top: 10px; color: rgb(114, 55, 78); margin-bottom: 0;">Total: $<span id="total-carrito">0</span></h3>
+</div>
+
+<!-- Feedback Visual  -->
+<div id="toast">¡Producto agregado con éxito!</div>
+<script src="main.js"></script>
+</body>
+</html>
